@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-anyhow = "1.0.100"
-tokio = { version = "1.47.1", features = ["rt-multi-thread", "macros"] }
-reqwest = { version = "0.12.23", default-features = false, features = ["rustls-tls", "http2"] }
-flate2 = { version = "1.1.2", default-features = false, features = ["rust_backend"] }
+anyhow = "1.0.102"
+tokio = { version = "1.52.1", features = ["rt-multi-thread", "macros"] }
+reqwest = { version = "0.12.28", default-features = false, features = ["rustls-tls", "http2"] }
+flate2 = { version = "1.1.9", default-features = false, features = ["rust_backend"] }
